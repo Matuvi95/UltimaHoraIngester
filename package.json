@@ -1,0 +1,23 @@
+{
+  "name": "cc-ingester",
+  "version": "0.0.0",
+  "description": "Ingester for Creative Commons blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fathom-web": "^2.3.0",
+    "jsdom": "^11.7.0",
+    "libingester": "^2.5.8",
+    "vimeo": "^2.0.2",
+    "youtube-dl": "^1.12.2"
+  }
+}
